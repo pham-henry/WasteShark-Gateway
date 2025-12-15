@@ -17,7 +17,7 @@ struct connection_info {
 static struct MHD_Daemon *g_daemon = NULL;
 
 // This function is called multiple times for a request
-static int http_request_handler(void *cls,
+static enum MHD_Result http_request_handler(void *cls,
                                 struct MHD_Connection *connection,
                                 const char *url,
                                 const char *method,
