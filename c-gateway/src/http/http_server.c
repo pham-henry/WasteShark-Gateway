@@ -6,7 +6,7 @@
 
 #include "config.h"
 #include "mqtt_client.h"
-#include "server.h"
+#include "http_server.h"
 
 // Per-connection info (for accumulating POST data)
 struct connection_info {
