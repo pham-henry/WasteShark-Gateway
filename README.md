@@ -79,8 +79,6 @@ If you don’t already have Node.js:
 sudo apt install -y nodejs npm
 ```
 
-(Or you can use nvm if you prefer, but `apt` is fine for class.)
-
 ---
 
 ## 3. Project Layout
