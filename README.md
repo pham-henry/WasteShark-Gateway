@@ -85,8 +85,7 @@ sudo apt install -y nodejs npm
 
 ## 3. Project Layout
 
-Your C gateway project looks like this:
-
+This is our C gateway project:
 ```text
 project-root/
 ├── Makefile
@@ -115,7 +114,7 @@ project-root/
         └── signals.c
 ```
 
-Express backend (in a separate folder, e.g. `express-backend/`):
+This is our test express.js http backend:
 
 ```text
 express-backend/
@@ -361,7 +360,7 @@ mosquitto_pub -h localhost -t robot/telemetry \
   [BACKEND] Telemetry: { status: 'cleaning', battery: 82 }
   ```
 
-If this shows up, your **telemetry path is working** ✅
+If this shows up, your **telemetry path is working** 
 
 ---
 
@@ -400,9 +399,9 @@ If this shows up, your **telemetry path is working** ✅
 
 ---
 
-## 9. What This Proves (for your report)
+## 9. What This Proves
 
-Once both tests pass, you’ve demonstrated:
+Once both tests pass, it demonstrates:
 
 1. **Backend → Gateway → MQTT**
 
