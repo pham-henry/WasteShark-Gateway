@@ -5,7 +5,7 @@
 // ---------------- Configuration ----------------
 
 // MQTT broker running on your Raspberry Pi
-#define MQTT_HOST "192.168.1.50"   // change this based on PI api, for MQTT testing it should be localhost
+#define MQTT_HOST "127.0.0.1"   // change this based on PI api, for MQTT testing it should be localhost
 #define MQTT_PORT 1883
 
 #define MQTT_TOPIC_COMMAND   "robot/command"
